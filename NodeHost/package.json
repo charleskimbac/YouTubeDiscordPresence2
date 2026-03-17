@@ -1,15 +1,19 @@
 {
   "name": "youtube-discord-presence",
-  "version": "1.0.0",
+  "version": "1.5.81",
   "description": "NodeJS version of the YouTubeDiscordPresence desktop component",
-  "main": "app.js",
+  "main": "src/app.js",
+  "bin": "src/app.js",
   "scripts": {
-    "test": "node ./src/app.js"
+    "test": "node src/app.js",
+    "postinstall": "patch-package"
   },
   "author": "Michael Ren",
   "license": "MIT",
   "dependencies": {
     "discord-rpc": "^4.0.1"
   },
-  "bin": "src/app.js"
+  "devDependencies": {
+    "patch-package": "^8.0.1"
+  }
 }

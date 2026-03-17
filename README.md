@@ -1,8 +1,9 @@
 # Updates
 
-This fork features 2 main updates:
-- `Watching` and `Listening` statuses (instead of `Playing`) are now supported for YT and YT Music respectively (credit to [monster010](https://github.com/monster010)).
+This fork features 3 main updates:
+- `Watching` and `Listening` statuses (instead of only `Playing`) are now supported for YT and YTMusic respectively (credit to [monster010](https://github.com/monster010)).
 - Fixes for Brave users.
+- Support for using multiple Discord instances (e.g. Stable, PTB).
 
 # Usage of the fork (running extension locally)
 1. Do the installation steps as described in the [Installation](#installation) section below.
@@ -27,7 +28,13 @@ This fork features 2 main updates:
 </details>  
 
 12. Save the file.
-13. Restart your browser.  
+13. Restart your browser.
+
+<u>**Use multiple Discord instances? Continue!**</u>
+
+14. Open `C:\Program Files\YouTubeDiscordPresence`  
+15. Replace `YTDPwin.exe` with the one in [Releases](https://github.com/charleskimbac/YouTubeDiscordPresence2/releases) (or build with `pkg -t node14-win NodeHost -o YTDPwin.exe`).
+16. Restart your browser.
 
 ⭐ Consider starring if this helped you out, thanks!
 
