@@ -1,3 +1,6 @@
+# ALL THESE CHANGES HAVE BEEN MERGED TO THE MAIN REPO.
+Go [here](https://github.com/XFG16/YouTubeDiscordPresence?tab=readme-ov-file#installation) to install instead. Do not proceed unless you know what you're doing.
+
 # Updates
 
 This fork features 3 main updates:
